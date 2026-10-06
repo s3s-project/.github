@@ -35,8 +35,8 @@ body:
       label: Pull request intent
       description: Optional, and there is no expectation either way. "With guidance" just means we point you at the code and the gates.
       options:
-        - "Yes, I plan to open one"
-        - "Maybe, with some guidance"
-        - "No, just suggesting"
+        - "Yes - I plan to open a pull request"
+        - "Maybe - I would need some guidance"
+        - "No - just suggesting the feature"
     validations:
       required: false
