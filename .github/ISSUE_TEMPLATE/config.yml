@@ -1,1 +1,8 @@
 blank_issues_enabled: true
+contact_links:
+  - name: Security policy
+    url: https://github.com/s3s-project/.github/blob/main/SECURITY.md
+    about: Report a vulnerability privately instead of opening an issue.
+  - name: AI contribution policy
+    url: https://github.com/s3s-project/.github/blob/main/AI_POLICY.md
+    about: How AI assisted contributions are reviewed and disclosed.

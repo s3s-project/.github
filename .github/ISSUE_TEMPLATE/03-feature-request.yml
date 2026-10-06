@@ -6,6 +6,8 @@ body:
     attributes:
       value: |
         Thanks for taking the time to suggest a feature!
+
+        Pull requests are welcome - if you would like to implement this, say so below and we will point you at the right place to start.
   - type: textarea
     id: description
     attributes:
@@ -25,5 +27,16 @@ body:
     attributes:
       label: Alternatives
       description: A clear and concise description of any alternative solutions or features you've considered.
+    validations:
+      required: false
+  - type: dropdown
+    id: pr_intent
+    attributes:
+      label: Pull request intent
+      description: Optional, and there is no expectation either way. "With guidance" just means we point you at the code and the gates.
+      options:
+        - "Yes, I plan to open one"
+        - "Maybe, with some guidance"
+        - "No, just suggesting"
     validations:
       required: false

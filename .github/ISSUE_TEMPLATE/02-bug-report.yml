@@ -6,6 +6,8 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+
+        Pull requests are welcome - if you would like to fix this yourself, say so below and we will point you at the right place to start.
   - type: textarea
     id: description
     attributes:
@@ -37,5 +39,16 @@ body:
     attributes:
       label: Environment
       description: OS, architecture, and any other relevant environment details.
+    validations:
+      required: false
+  - type: dropdown
+    id: pr_intent
+    attributes:
+      label: Pull request intent
+      description: Optional, and there is no expectation either way. "With guidance" just means we point you at the code and the gates.
+      options:
+        - "Yes, I plan to open one"
+        - "Maybe, with some guidance"
+        - "No, just reporting"
     validations:
       required: false
